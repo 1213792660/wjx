@@ -1,295 +1,318 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>华凯智联科技</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+  <!--[if IE]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
+  <title>华凯智联科技</title>
 
-    <!-- BOOTSTRAP CORE STYLE  -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT AWESOME STYLE  -->
-    <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- ANIMATE STYLE  -->
-    <link href="assets/css/animate.css" rel="stylesheet" />
-    <!-- FLEXSLIDER STYLE  -->
-    <link href="assets/css/flexslider.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE  -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- GOOGLE FONTS  -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css' />
-     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
-    <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=Ts7qGSWCYz3O2BEqPmM4ZWN6mBNMUt7W"></script>
-	<script type="text/javascript" src="//api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
-	<link rel="stylesheet" href="//api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
-    <style type="text/css">
-        body, html{width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
-        #allmap {height: 500px;width:100%;overflow: hidden;}
-        #result {width:100%;font-size:12px;}
-        dl,dt,dd,ul,li{
-            margin:0;
-            padding:0;
-            list-style:none;
-        }
-        dt{
-            font-size:14px;
-            font-family:"微软雅黑";
-            font-weight:bold;
-            border-bottom:1px dotted #000;
-            padding:5px 0 5px 5px;
-            margin:5px 0;
-        }
-        dd{
-            padding:5px 0 0 5px;
-        }
-        li{
-            line-height:28px;
-        }
-        </style>
+  <!-- BOOTSTRAP CORE STYLE  -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+  <!-- FONT AWESOME STYLE  -->
+  <link href="assets/css/font-awesome.css" rel="stylesheet"/>
+  <!-- ANIMATE STYLE  -->
+  <link href="assets/css/animate.css" rel="stylesheet"/>
+  <!-- FLEXSLIDER STYLE  -->
+  <link href="assets/css/flexslider.css" rel="stylesheet"/>
+  <!-- CUSTOM STYLE  -->
+  <link href="assets/css/style.css" rel="stylesheet"/>
+  <!-- GOOGLE FONTS  -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
+  <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=Ts7qGSWCYz3O2BEqPmM4ZWN6mBNMUt7W"></script>
+  <script type="text/javascript"
+          src="//api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+  <link rel="stylesheet" href="//api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css"/>
+  <style type="text/css">
+    body, html {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      font-family: "微软雅黑";
+    }
+
+    #allmap {
+      height: 500px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    #result {
+      width: 100%;
+      font-size: 12px;
+    }
+
+    dl, dt, dd, ul, li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    dt {
+      font-size: 14px;
+      font-family: "微软雅黑";
+      font-weight: bold;
+      border-bottom: 1px dotted #000;
+      padding: 5px 0 5px 5px;
+      margin: 5px 0;
+    }
+
+    dd {
+      padding: 5px 0 0 5px;
+    }
+
+    li {
+      line-height: 28px;
+    }
+  </style>
 </head>
 <body>
 
- 
-    <div class="navbar navbar-inverse set-radius-zero" >
-        <div class="container" style="height: 80px;">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo.png" />
-                </a>
-            </div>
-            <div class="right-div">
-        邮箱 :  service@hkyty.com
-            </div>
-        </div>
-    </div>
-    <!-- LOGO HEADER END-->
-    <section class="menu-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="navbar-collapse collapse ">
-                        <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a href="index.html" >首页</a></li>
-                           
-                            <li><a href="about.html">关于华恺</a></li>
-                             <li><a href="gallery.html" >项目案例</a></li>
-                             <li><a href="features.html">业务范围</a></li>
-                            <li><a href="contact.html" class="menu-top-active">联系我们</a></li>
-                            <li><a href="blank.html">人力资源</a></li>
-                            <li><a href="contactus.html">法规标准</a></li>
-                        </ul>
-                    </div>
-                </div>
 
-            </div>
+<div class="navbar navbar-inverse set-radius-zero">
+  <div class="container" style="height: 80px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png"/>
+      </a>
+    </div>
+    <div class="right-div">
+      邮箱 : service@hkyty.com
+    </div>
+  </div>
+</div>
+<!-- LOGO HEADER END-->
+<section class="menu-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="navbar-collapse collapse ">
+          <ul id="menu-top" class="nav navbar-nav navbar-right">
+            <li><a href="index.html">首页</a></li>
+
+            <li><a href="about.html">关于华恺</a></li>
+            <li><a href="gallery.html">项目案例</a></li>
+            <li><a href="features.html">业务范围</a></li>
+            <li><a href="contact.html" class="menu-top-active">联系我们</a></li>
+            <li><a href="blank.html">人力资源</a></li>
+            <li><a href="contactus.html">法规标准</a></li>
+          </ul>
         </div>
-    </section>
-     <!-- MENU SECTION END-->
-  
-    <div class="below-slideshow">
-         <div class="container">
-        <div class="row">
-            
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="txt-block">
-									<h1 class="head-line">联系我们</h1>		
-                      </div>
-            </div>
-        </div>
+      </div>
 
     </div>
-    </div>
-    <!-- BELOW SLIDESHOW SECTION END-->
-     <!-- TAG HOME SECTION END-->
-    <div class="just-sec">
-        <div class="container"> 
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="just-txt-div">
-				<h2 style="text-align: center;">联系方式 </h2>
-                <div style="width: 100%; margin:0 auto;">
-                  <p style="float: left;margin-right: 10%;">
-                       电话: +09-890-789-00-900
-                   </p>
-                    <p style="float: left;margin-right: 10%;">
-                    邮箱:  info@yourdomain.com
-                   </p>
-                   <p style="float: left;">
-                      地址:  info@yourdomain.com
-                  </p>  
-                </div>				
-                   
-                      </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <!-- <div id="allmap">	
-                </div> -->
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="just-txt-div">
-                                 <div class="form-group">
-                                            <label>输入您的电子邮件</label>
-                                            <input class="form-control" type="text" />
-                                        </div>
-                                            <div class="form-group">
-                                            <label>输入电话号码 </label>
-                                            <input class="form-control" type="text" />
-                                        </div>
-                                <div class="form-group">
-                                            <label>输入主题</label>
-                                            <textarea class="form-control"  rows="5"></textarea>
-                                        </div>
-                                 
-                                        <button type="submit" class="btn btn-success btn-lg">发送 </button>
+  </div>
+</section>
+<!-- MENU SECTION END-->
 
-                            </div>
-            </div>
-            
+<div class="below-slideshow">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="txt-block">
+          <h1 class="head-line">联系我们</h1>
         </div>
-             
+      </div>
     </div>
-    </div>         
 
-   
-    <div class="footer-sec">
-        <div class="container">
-       <div class="row">
-           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                   <h3> <strong>联系方式</strong> </h3>
-                                   <p style="padding-right:50px;" >
-                                       电话 :  021-38468075
-                                   </p>
-                                   <p style="padding-right:50px;" >
-                                       Email：service@hkyty.com
-                                   </p>
-                                   <p style="padding-right:50px;" >
-                                      地址: 上海市宝山区园新路258弄4号楼12层1202室
-                                   </p>
-           </div>
-           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 social-div">
-            <h3> <strong>第三方平台</strong> </h3>
-               <img src="assets/img/GZH.jpg" alt="" style="height:100px;">      
-           </div>
-           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-           <h3><strong>导航</strong> </h3>
-           <div class="dhl">
-               <p>首页</p>
-               <p>关于华恺</p>
-               <p>业务范围</p>
-               <p>项目案例</p>
-               <p>法规标准</p>
-               <p>人力资源</p>
-               <p>联系我们</p>
-           </div>
-           </div>
-       </div>
-<div class="row">
-           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-               <hr />
-               <div style="text-align:center;padding:5px;display:block;">
-                &copy;2022华凯智联电梯科技有限公司 版权所有
-            </div>
-            <div style="display:block;text-align:center;">沪ICP备202028232号-1</div>
-           </div>
-   </div>
-   </div>
-       </div>
-     <!--FOOTER SECTION END-->
-      <!-- WE PUT SCRIPTS AT THE END TO LOAD PAGE FASTER-->
+  </div>
+</div>
+<!-- BELOW SLIDESHOW SECTION END-->
+<!-- TAG HOME SECTION END-->
+<div class="just-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="just-txt-div">
+          <h2 style="text-align: center;">联系方式 </h2>
+          <div style="width: 100%; margin:0 auto;">
+            <p style="float: left;margin-right: 10%;">
+              电话: +09-890-789-00-900
+            </p>
+            <p style="float: left;margin-right: 10%;">
+              邮箱: info@yourdomain.com
+            </p>
+            <p style="float: left;">
+              地址: info@yourdomain.com
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <!-- <div id="allmap">
+        </div> -->
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="just-txt-div">
+          <div class="form-group">
+            <label>输入您的电子邮件</label>
+            <input class="form-control" type="text"/>
+          </div>
+          <div class="form-group">
+            <label>输入电话号码 </label>
+            <input class="form-control" type="text"/>
+          </div>
+          <div class="form-group">
+            <label>输入主题</label>
+            <textarea class="form-control" rows="5"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-success btn-lg">发送</button>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<div class="footer-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <h3><strong>联系方式</strong></h3>
+        <p style="padding-right:50px;">
+          电话 : 021-38468075
+        </p>
+        <p style="padding-right:50px;">
+          Email：service@hkyty.com
+        </p>
+        <p style="padding-right:50px;">
+          地址: 上海市宝山区园新路258弄4号楼12层1202室
+        </p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 social-div">
+        <h3><strong>第三方平台</strong></h3>
+        <img src="assets/img/GZH.jpg" alt="" style="height:100px;">
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+        <h3><strong>导航</strong></h3>
+        <div class="dhl">
+          <p>首页</p>
+          <p>关于华恺</p>
+          <p>业务范围</p>
+          <p>项目案例</p>
+          <p>法规标准</p>
+          <p>人力资源</p>
+          <p>联系我们</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <hr/>
+        <div style="text-align:center;padding:5px;display:block;">
+          &copy;2022华凯智联电梯科技有限公司 版权所有
+        </div>
+        <div style="display:block;text-align:center;">沪ICP备202028232号-1</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--FOOTER SECTION END-->
+<!-- WE PUT SCRIPTS AT THE END TO LOAD PAGE FASTER-->
 <!--CORE SCRIPTS PLUGIN-->
-    <script src="assets/js/jquery-1.11.1.min.js"></script>
-     <!--BOOTSTRAP SCRIPTS PLUGIN-->
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<!--BOOTSTRAP SCRIPTS PLUGIN-->
 <script src="assets/js/bootstrap.js"></script>
-     <!--WOW SCRIPTS PLUGIN-->
-    <script src="assets/js/wow.js"></script>
-     <!--FLEXSLIDER SCRIPTS PLUGIN-->
-    <script src="assets/js/jquery.flexslider.js"></script>
-     <!--CUSTOM SCRIPTS -->
-    <script src="assets/js/custom.js"></script>
-   
+<!--WOW SCRIPTS PLUGIN-->
+<script src="assets/js/wow.js"></script>
+<!--FLEXSLIDER SCRIPTS PLUGIN-->
+<script src="assets/js/jquery.flexslider.js"></script>
+<!--CUSTOM SCRIPTS -->
+<script src="assets/js/custom.js"></script>
+
 </body>
 
 <script type="text/javascript">
-	// 百度地图API功能
-    var map = new BMap.Map('allmap');
-    var poi = new BMap.Point(121.358374,31.3154824);
-    map.centerAndZoom(poi, 16);
-    map.enableScrollWheelZoom();
+  // 百度地图API功能
+  var map = new BMap.Map('allmap');
+  var poi = new BMap.Point(121.358374, 31.3154824);
+  map.centerAndZoom(poi, 16);
+  map.enableScrollWheelZoom();
 
-    var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
-                    '<img src="assets/img/e3bbf9713d1d7d5ac6130cb2d3f5896.png" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
-                    '地址：上海市海淀区上地十街10号<br/>电话：(010)59928888<br/>' +
-                  '</div>';
+  var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+      '<img src="assets/img/e3bbf9713d1d7d5ac6130cb2d3f5896.png" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
+      '地址：上海市海淀区上地十街10号<br/>电话：(010)59928888<br/>' +
+      '</div>';
 
-    //创建检索信息窗口对象
-    var searchInfoWindow = null;
-	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
-			title  : "百度大厦",      //标题
-			width  : 290,             //宽度
-			height : 105,              //高度
-			panel  : "panel",         //检索结果面板
-			enableAutoPan : true,     //自动平移
-			searchTypes   :[
-				BMAPLIB_TAB_SEARCH,   //周边检索
-				BMAPLIB_TAB_TO_HERE,  //到这里去
-				BMAPLIB_TAB_FROM_HERE //从这里出发
-			]
-		});
-    var marker = new BMap.Marker(poi); //创建marker对象
-    marker.enableDragging(); //marker可拖拽
-    marker.addEventListener("click", function(e){
-	    searchInfoWindow.open(marker);
-    })
-    map.addOverlay(marker); //在地图中添加marker
-	//样式1
-	var searchInfoWindow1 = new BMapLib.SearchInfoWindow(map, "信息框1内容", {
-		title: "信息框1", //标题
-		panel : "panel", //检索结果面板
-		enableAutoPan : true, //自动平移
-		searchTypes :[
-			BMAPLIB_TAB_FROM_HERE, //从这里出发
-			BMAPLIB_TAB_SEARCH   //周边检索
-		]
-	});
-	function openInfoWindow1() {
-		searchInfoWindow1.open(new BMap.Point(116.319852,40.057031));
-	}
-	//样式2
-	var searchInfoWindow2 = new BMapLib.SearchInfoWindow(map, "信息框2内容", {
-		title: "信息框2", //标题
-		panel : "panel", //检索结果面板
-		enableAutoPan : true, //自动平移
-		searchTypes :[
-			BMAPLIB_TAB_SEARCH   //周边检索
-		]
-	});
-	function openInfoWindow2() {
-		searchInfoWindow2.open(new BMap.Point(116.324852,40.057031));
-	}
-	//样式3
-	var searchInfoWindow3 = new BMapLib.SearchInfoWindow(map, "信息框3内容", {
-		title: "信息框3", //标题
-		width: 290, //宽度
-		height: 40, //高度
-		panel : "panel", //检索结果面板
-		enableAutoPan : true, //自动平移
-		searchTypes :[
-		]
-	});
-	function openInfoWindow3() {
-		searchInfoWindow3.open(new BMap.Point(116.328852,40.057031)); 
-	}
-
+  //创建检索信息窗口对象
+  var searchInfoWindow = null;
+  searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+    title: "百度大厦",      //标题
+    width: 290,             //宽度
+    height: 105,              //高度
+    panel: "panel",         //检索结果面板
+    enableAutoPan: true,     //自动平移
+    searchTypes: [
+      BMAPLIB_TAB_SEARCH,   //周边检索
+      BMAPLIB_TAB_TO_HERE,  //到这里去
+      BMAPLIB_TAB_FROM_HERE //从这里出发
+    ]
+  });
+  var marker = new BMap.Marker(poi); //创建marker对象
+  marker.enableDragging(); //marker可拖拽
+  marker.addEventListener("click", function (e) {
     searchInfoWindow.open(marker);
+  })
+  map.addOverlay(marker); //在地图中添加marker
+  //样式1
+  var searchInfoWindow1 = new BMapLib.SearchInfoWindow(map, "信息框1内容", {
+    title: "信息框1", //标题
+    panel: "panel", //检索结果面板
+    enableAutoPan: true, //自动平移
+    searchTypes: [
+      BMAPLIB_TAB_FROM_HERE, //从这里出发
+      BMAPLIB_TAB_SEARCH   //周边检索
+    ]
+  });
+
+  function openInfoWindow1() {
+    searchInfoWindow1.open(new BMap.Point(116.319852, 40.057031));
+  }
+
+  //样式2
+  var searchInfoWindow2 = new BMapLib.SearchInfoWindow(map, "信息框2内容", {
+    title: "信息框2", //标题
+    panel: "panel", //检索结果面板
+    enableAutoPan: true, //自动平移
+    searchTypes: [
+      BMAPLIB_TAB_SEARCH   //周边检索
+    ]
+  });
+
+  function openInfoWindow2() {
+    searchInfoWindow2.open(new BMap.Point(116.324852, 40.057031));
+  }
+
+  //样式3
+  var searchInfoWindow3 = new BMapLib.SearchInfoWindow(map, "信息框3内容", {
+    title: "信息框3", //标题
+    width: 290, //宽度
+    height: 40, //高度
+    panel: "panel", //检索结果面板
+    enableAutoPan: true, //自动平移
+    searchTypes: []
+  });
+
+  function openInfoWindow3() {
+    searchInfoWindow3.open(new BMap.Point(116.328852, 40.057031));
+  }
+
+  searchInfoWindow.open(marker);
 </script>
 </html>

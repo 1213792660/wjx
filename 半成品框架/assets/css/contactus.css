@@ -1,0 +1,16 @@
+h1{
+    margin-bottom: 60px;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: #01a2a6;
+}
+
+.just-sec ul li{
+    text-align: center;
+    height: 100px;
+}
+

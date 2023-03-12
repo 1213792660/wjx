@@ -1,0 +1,20 @@
+.just-sec .fa{
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.just-txt-div{
+    text-align: center;
+}
+
+.chanP .row img{
+    height: 250px;
+}
+
+.chanP .row{
+    margin-top: 80px;
+    padding-bottom: 10px;
+    border-bottom: #ddd solid 1px;
+}
+.chanP h2{
+    margin-bottom: 30px;
+}

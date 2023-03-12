@@ -1,0 +1,29 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.gaiK{
+    background-color: #01a2a6;
+    color: white;
+    margin-top: 100px;
+    padding: 40px 0 40px 0;
+}
+.gaiK div{
+    height: 100%;
+}
+.gaiK img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.weiZ{
+    margin-top: 100px;
+}
+.weiZ img{
+    margin-top: 10px;
+    width: 100%;
+}
+.weiZ h1{
+    margin-bottom: 30px;
+}
